@@ -8,6 +8,7 @@ import { CursosComponent } from './cursos/cursos.component';
 import { routing } from './app.routing';
 import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
 import { CursosService } from './cursos/cursos.service';
+import { CursoNaoEncontradoComponent } from './curso-nao-encontrado/curso-nao-encontrado.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +17,14 @@ import { CursosService } from './cursos/cursos.service';
     LoginComponent,
     CursosComponent,
     CursoDetalheComponent,
+    CursoNaoEncontradoComponent,
 
   ],
   imports: [
     BrowserModule,
     routing
   ],
+ 
   providers: [CursosService],
   bootstrap: [AppComponent]
 })
