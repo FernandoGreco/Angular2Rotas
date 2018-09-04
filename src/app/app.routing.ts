@@ -1,10 +1,10 @@
-import {CursoDetalheComponent} from './curso-detalhe/curso-detalhe.component';
+import {CursoDetalheComponent} from './cursos/curso-detalhe/curso-detalhe.component';
 import {Routes, RouterModule} from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { CursosComponent } from './cursos/cursos.component';
-import { ModuleWithProviders } from '../../node_modules/@angular/compiler/src/core';
-import { CursoNaoEncontradoComponent } from './curso-nao-encontrado/curso-nao-encontrado.component';
+import { ModuleWithProviders } from '@angular/compiler/src/core';
+import { CursoNaoEncontradoComponent } from './cursos/curso-nao-encontrado/curso-nao-encontrado.component';
 
 const APP_ROUTES: Routes = [
     {path:'cursos', component: CursosComponent},
